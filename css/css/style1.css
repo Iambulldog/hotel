@@ -1,0 +1,178 @@
+
+.websiteLink{
+  margin-bottom:10px;
+}
+
+.websiteLink a{
+    padding: 2px 10px 5px 10px;
+    background: #ff6a00;
+    border-radius: 5px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.websiteLink a:hover{
+  color:#fff;
+}
+
+.modalBox #modalBoxContent {
+    color: #616161;
+}
+.modalBox .closeModalBox {
+    background-color: rgba(188, 188, 188, 0.84);
+}
+
+.closeInfo{
+    background: #a8a8a8;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.closeInfo:hover{
+   color: #fff !important;
+}
+
+.ui-widget-header {
+    background: #cecece;
+}
+
+.new-price {
+    color: #616161;
+}
+
+.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: 1px solid #3076c5;
+    background: #3076c5;
+    color: #fff;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: 1px solid #9a9a9a;
+    background: #9a9a9a;
+}
+
+.bookNowBtn {
+    background: #437d45;
+}
+
+#hotelLogo {
+        width: 100%;
+    max-width: 150px;
+    margin-top: 10px;
+    background: rgba(255,255,255,1);
+    padding: 5px;
+}
+
+#footerBox {
+    background-color: #f5f5f5;
+    color: #565656;
+}
+
+.bookNowBtn:hover {
+    background: #6a986b;
+    color: #fff;
+}
+
+.bgdate {
+    background: #757e8a;
+      border-radius: 4px;
+}
+
+.calendarBox .dateBox:hover {
+    background: #565d67;
+}
+
+.summaryPanel {
+    border-top: 0px solid #bfbfbf;
+}
+
+.btnbookquick {
+    background: #4b8692;
+      border-radius: 4px;
+}
+
+.btnbookquick:hover{
+  background: #315c94;
+}
+
+.btn {
+  
+    background: #0e4892;
+    border-bottom: 3px solid #49659e;
+      border-radius: 4px;
+}
+
+.btn:hover {
+   background: #1c4180;
+    border-bottom: 3px solid #49659e;
+}
+
+.btn.focus, .btn:focus, .btn:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+a, a:hover {
+    color: #616161;
+}
+
+.bkBox {
+    background: #3e3e3e;
+}
+
+.copyAbove {
+       background-color: #0e4892;
+    margin: 10px 0;
+    border-radius: 4px;
+    padding: 5px 10px;
+}
+
+.btn-default{
+   margin: 10px 0;
+   border-radius: 4px;
+}
+
+.booking-form-list {
+    border-bottom: 3px solid #7b7b7b;
+  padding: 10px 0 30px 0;
+}
+
+.confirm-head {
+    background: #dadada;
+}
+
+.confirm-list {
+    border: 0px ;
+}
+
+.propertyNameBox {
+      background: #ffffff;
+  color: #585858;
+}
+
+.roomDetails img {
+      opacity: 0.4;
+}
+
+#infoContent{
+  padding:0 20px;
+}
+
+.info-detail {
+    border: 0px; 
+}
+
+.booking-rate.rate {
+    border: 0px;
+}
+
+.moreInfo {
+    background: #ececec;
+    border: 0px;
+}
+
+.line-bottom {
+    border-bottom: 1px solid #e4e4e4;
+}
+ #header {background: url(../../img/9.jpg) no-repeat; background-size: 100%;}
