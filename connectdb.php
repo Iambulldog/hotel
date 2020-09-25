@@ -9,8 +9,8 @@ $serverName  = "localhost";
 //$Password	  = "12345678";
 //$dbName	  = "hostels";
 
-$userName	  = "ananyalipe_01";
-$Password	  = "Aa123654";
+$userName	  = "root";
+$Password	  = "";
 $dbName	  = "ananyalipe_01";
 
 	$con = mysqli_connect($serverName,$userName,$Password,$dbName);

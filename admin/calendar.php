@@ -14,7 +14,7 @@ if(empty($_SESSION['UserID']))
 try
 {
 	//$bdd = new PDO('mysql:host=localhost;dbname=hostels;charset=utf8', 'root', '12345678');
-	$bdd = new PDO('mysql:host=localhost;dbname=ananyalipe_01;charset=utf8', 'ananyalipe_01', 'Aa123654');
+	$bdd = new PDO('mysql:host=localhost;dbname=ananyalipe_01;charset=utf8', 'root', '');
 }
 catch(Exception $e)
 {
