@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.8.4
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
--- Host: localhost
--- Generation Time: Sep 21, 2020 at 04:33 PM
--- Server version: 5.6.36-log
--- PHP Version: 5.6.31
+-- Host: 127.0.0.1
+-- Generation Time: Sep 26, 2020 at 11:25 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.2
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -42,7 +42,7 @@ CREATE TABLE `adminlog` (
 --
 
 INSERT INTO `adminlog` (`UserID`, `Username`, `Password`, `Name`, `LoginStatus`, `LastUpdate`) VALUES
-(001, 'admin', '123654', 'ADMIN Ananya Lipe', 1, '2020-09-19 14:59:44');
+(001, 'admin', '123654', 'ADMIN Ananya Lipe', 1, '2020-09-26 14:04:25');
 
 -- --------------------------------------------------------
 
@@ -163,27 +163,7 @@ INSERT INTO `booking` (`ID_booking`, `num_book`, `ID_room`, `num_room`, `names`,
 (177, '', 11, 6, '', '', '', '2020-05-28 12:01:00', '2020-09-30 12:00:00', 0, '', 2, '2020-05-28 11:02:32', '', '', '', 0, 0),
 (178, '', 4, 5, '', '', '', '2021-01-11 12:01:00', '2021-04-30 12:00:00', 0, '', 2, '2020-05-28 13:47:02', '', '', '', 0, 0),
 (179, '', 11, 5, '', '', '', '2021-01-11 12:01:00', '2021-04-30 12:00:00', 0, '', 2, '2020-05-28 13:47:20', '', '', '', 0, 0),
-(180, 'ANANYA2020-00180', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00180', 0, '2020-06-03 10:07:08', '', '', '', 0, 0),
-(181, 'ANANYA2020-00181', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00181', 0, '2020-06-16 13:54:17', '', '', '', 0, 0),
-(182, 'ANANYA2020-00182', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00182', 0, '2020-06-26 12:36:43', '', '', '', 0, 0),
-(183, 'ANANYA2020-00183', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00183', 0, '2020-07-01 20:40:44', '', '', '', 0, 0),
-(184, 'ANANYA2020-00184', 11, 1, 'Xx', '0899987760', 'mamahoneii@gmail.com', '2020-12-31 12:01:00', '2021-01-01 12:00:00', 1, 'ANANYA2020-00184', 0, '2020-07-04 16:00:06', 'Xx', '', '', 8480, 1),
-(185, 'ANANYA2020-00185', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00185', 0, '2020-07-10 01:07:17', '', '', '', 0, 0),
-(186, 'ANANYA2020-00186', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00186', 0, '2020-07-12 08:15:34', '', '', '', 0, 0),
-(187, 'ANANYA2020-00187', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00187', 0, '2020-07-19 10:19:36', '', '', '', 0, 0),
-(188, 'ANANYA2020-00188', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00188', 0, '2020-07-22 17:25:24', '', '', '', 0, 0),
-(189, 'ANANYA2020-00189', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00189', 0, '2020-07-24 04:21:05', '', '', '', 0, 0),
-(190, 'ANANYA2020-00190', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00190', 0, '2020-08-01 15:37:06', '', '', '', 0, 0),
-(191, 'ANANYA2020-00191', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00191', 0, '2020-08-03 00:45:37', '', '', '', 0, 0),
-(192, 'ANANYA2020-00192', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00192', 0, '2020-08-11 11:06:19', '', '', '', 0, 0),
-(193, 'ANANYA2020-00193', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00193', 0, '2020-08-12 17:29:26', '', '', '', 0, 0),
-(194, 'ANANYA2020-00194', 4, 1, 'Jutima Sampuntawong', '0815985875', 'sumpuntawong.j@gmail.com', '2020-12-04 12:01:00', '2020-12-06 12:00:00', 2, 'ANANYA2020-00194', 0, '2020-08-12 21:14:06', 'Jutima Sampuntawong', '', '', 12880, 2),
-(195, 'ANANYA2020-00195', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00195', 0, '2020-08-14 09:05:31', '', '', '', 0, 0),
-(196, 'ANANYA2020-00196', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00196', 0, '2020-08-15 15:06:52', '', '', '', 0, 0),
-(197, 'ANANYA2020-00197', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00197', 0, '2020-08-25 21:01:16', '', '', '', 0, 0),
-(198, 'ANANYA2020-00198', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00198', 0, '2020-08-27 02:44:07', '', '', '', 0, 0),
-(199, 'ANANYA2020-00199', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00199', 0, '2020-08-28 18:29:41', '', '', '', 0, 0),
-(200, 'ANANYA2020-00200', 4, 1, 'aseeyah', '0612543133', 'imiseo21@gmail.com', '2021-10-21 12:01:00', '2021-10-22 12:00:00', 1, 'ANANYA2020-00200', 0, '2020-08-29 09:56:56', 'aseeyah', '', '', 4450, 1);
+(180, 'ANANYA2020-00180', 0, 0, '', '', '', '2012-01-00 00:00:00', '2012-00-00 00:00:00', 0, 'ANANYA2020-00180', 0, '2020-06-03 10:07:08', '', '', '', 0, 0);
 
 -- --------------------------------------------------------
 
@@ -254,7 +234,7 @@ INSERT INTO `fontweb` (`ID_fontweb`, `detail_th`, `detail_en`, `detail_cn`, `typ
 (3, '099254444', '099254444', '', 'ph'),
 (4, '394822.jpg', '394822.jpg', '', 'qr'),
 (5, '20190704_๑๙๐๗๒๔_0018.jpg', '20190704_๑๙๐๗๒๔_0018.jpg', '', 'vdo'),
-(6, '<p style=\"text-align:center\"><span style=\"font-size:16px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; </span></span><span style=\"font-size:18px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">&nbsp;ยินดีต้อนรับสู่ Ananya Lipe (อนัญญา หลีเป๊ะ) รีสอร์ท หลีเป๊ะ ริมชายหาดสีขาว น้ำทะเลสีฟ้าครามของทะเลอันดามันอันเลื่องชื่อและฤดูร้อนอันสดใส พบกับวิวที่ยอดเยี่ยมที่สุดในบรรดาที่พักเกาะหลีเป๊ะ&nbsp;&nbsp;</span></span></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"ltr\" style=\"text-align: center;\"><span style=\"font-size:18px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">Ananya Lipe (อนัญญา หลีเป๊ะ) ที่พักเกาะหลีเป๊ะสุดหรู โรงแรมหลีเป๊ะที่ประกอบไปด้วยสิ่งอำนวยความสะดวกมากมาย สัมผัสบรรยากาศแห่งการพักผ่อน ไปกับที่พักสไตล์โมเดิร์น ระดับ 5 ดาว ติดหาดพัทยาใกล้ถนนคนเดิน และเพลิดเพลินไปกับสระว่ายน้ำขนาดใหญ่ล้อมรอบทั้งสระว่ายน้ำกลางแจ้ง และสระว่ายหลังห้องสุดกว้างขวางพร้อมม่านน้ำตกสุดอลังการ, ฟิสเนส , คิดส์คลับ และกิจกรรมอื่นๆอีกมากมาย ห้องพักทุกประเภทประกอบด้วยสิ่งอำนวยความสะดวกที่มีคุณภาพและคัดสรรมาเป็นอย่างดี ผู้เข้าพักจึงมั่นใจได้ว่าจะได้รับ ความสะดวกสบายและการบริการแบบมืออาชีพ&nbsp;&nbsp;</span></span></p>\r\n\r\n<p dir=\"ltr\" style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"ltr\" style=\"text-align:center\"><span style=\"font-size:18px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">วิวที่&nbsp; Ananya Lipe (อนัญญา หลีเป๊ะ) สามารถมองเห็นได้ทั้งพระอาทิตย์ขึ้นและพระอาทิตย์ตกสุดโรแมนติก พร้อมด้วยความบันเทิงยามค่ำคืนกับกิจกรรมหน้าหาด พร้อมด้วยเครื่องดื่มและอาหารสุดอร่อยให้คุณได้สนุกได้ทั้งค่ำคืน มีเจ้าหน้าที่ดูแลตลอด 24 ชั่วโมง ให้คุณได้เต็มอิ่มไปกับการพักผ่อนที่ </span></span><span style=\"font-size:18px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">Ananya Lipe (อนัญญา หลีเป๊ะ)</span></span></p>\r\n\r\n<p dir=\"ltr\" style=\"text-align:center\">&nbsp;</p>\r\n\r\n<p dir=\"ltr\" style=\"text-align:center\"><span style=\"font-size:18px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">ที่พักเกาะหลีเป๊ะ | โรงแรมหลีเป๊ะ | รีสอร์ท หลีเป๊ะ | Ananya Lipe | อนัญญา หลีเป๊ะ</span></span></p>\r\n\r\n<p style=\"text-align:center\">&nbsp;</p>\r\n', '<div style=\"text-align: center;\">Ananya Lipe is the best luxurios resort in Koh Lipe. &nbsp;</div>\r\n\r\n<div style=\"text-align: center;\">Lipe island is Thai island in the Andaman sea. &nbsp; Ananya Lipe is located on pattay beach of Lipe island, which is a popular beach. &nbsp;</div>\r\n\r\n<div style=\"text-align: center;\">Ananya Lipe included all facilities, outdoors swimming pool and accessible from the guest room to ensure you feel relaxed at Ananya Lipe.</div>\r\n', '<div style=\"text-align: center;\">Ananya 丽贝酒店这家四星级豪华酒店超级舒适的住宿环境，有很多设施。</div>\r\n\r\n<div style=\"text-align: center;\">酒店位于丽贝岛的白沙滩。Ananya丽贝有两个游泳池，第一是在前面的酒店是室外游泳池，第二在中间的酒店。让您体验真正的之乐。</div>\r\n', 'sl'),
+(6, '<p style=\"text-align: center;\"><span style=\"font-size:16px\"><span style=\"font-family:Tahoma,Geneva,sans-serif\">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</span></span><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">ลองจินตนาการถึงสถานที่ ที่ทะเลและธรรมธาติโอบล้อมกันอย่างลงตัว ที่ที่เต็มไปด้วยทะเลสีน้ำเงินเทอร์ควอยส์สุดสายตา<br />\r\nจินตนาการถึงโรงแรมที่ทำให้จินตนาการนี้เป็นจริงด้วยการผสมผสานการออกแบบจากสถาปัตยกรรมและการตกแต่งให้เข้ากับธรรมชาติได้อย่างลงตัว&nbsp;<br />\r\nและนี่คือ อนัญญา หลีเป๊ะ &nbsp;รีสอร์ทที่ตั้งอยู่บนหาดทรายสีขาวละเอียดของเกาะหลีเป๊ะในทะเลอันดามันทางชายฝั่งตอนใต้ของประเทศไทย<br />\r\nพร้อมทั้งฉากหลังเป็นท้องฟ้าสีน้ำเงินที่สดใส คุณสามารถค้นพบสถานที่ที่มีธรรมชาติอันงดงามเช่นนี้ได้ที่รีสอร์ทของเรา<br />\r\nอนัญญา หลีเป๊ะ ได้รับแรงบันดาลใจมาจากผลงานศิลปะ รีสอร์ทหรูหราแห่งนี้มีห้องพักเพื่อรับรองลูกค้า รวมถึงห้องสวีท รวมทั้งหมด 67 ห้อง</span></span></p>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">สามารถเห็นวิวพาโนราม่าหรือวิวทะเลได้จากทุกห้องพัก&nbsp;การออกแบบภายในรีสอร์ทคือการจับรวมเอาศิลปะสมัยใหม่และกลิ่นอายของวิถีทางทะเลของภาคใต้เข้าไว้ด้วยกัน</span></span></div>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">ธีมการออกแบบที่ลงตัวนี้สามารถเห็นได้ที่ห้องอาหารของทางรีสอร์ท และทางเรามีบริการเสริฟ์ทั้งอาหารนานาชาติ ญี่ปุ่น และอาหารทะเลสดใหม่ ทั้ง 5 ประเภทที่หลากหลายรังสรรค์รสชาติได้อย่างไม่มีที่สิ้นสุด และการออกแบบที่น่าทึ่งเพื่อเพิ่มประสบการณ์ที่แปลกใหม่ของคุณด้วยเช่นกัน<br />\r\nการออกแบบสร้างรีสอร์ทในฝันแห่งนี้เราต้องการนำเสนอความหลากหลายให้กับผู้ที่เข้าพัก ไม่ว่าจะเป็นระเบียงติดสระว่ายน้ำที่นอกจากจะออกแบบได้อย่างงดงาม</span></span></div>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">และยังได้ความปลอดโปร่งถึงพื้นที่ภายในห้องอีกด้วย&nbsp;อีกทั้งบีชคลับและบริเวณกลางแจ้งที่เหมาะสำหรับการจัดงานแต่งงานสุดหรูหราเป็นที่สุด</span></span></div>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">รีสอร์ทที่ถูกโอบล้อมด้วยวิวทิวทัศน์แบบพาโนราม่าของทะเลอันดามันและชายหาดทรายสีขาวละเอียด&nbsp;และยังมีกิจกรรมสำหรับพักผ่อนหย่อนใจที่หลากหลาย</span></span></div>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">รวมถึงสระว่ายน้ำที่ทอดยาวและเตียงสระว่ายน้ำที่เรียงรายพร้อมให้บริการ เชื่อมต่อกับธรรมชาติช่วยให้คุณได้พักผ่อนร่างกายและจิตใจของคุณอีกครั้งที่ </span></span></div>\r\n\r\n<div style=\"text-align: center;\"><span style=\"font-family:Arial,Helvetica,sans-serif\"><span style=\"font-size:12px\">อนัญญา หลีเป๊ะ</span></span></div>\r\n', '<div style=\"text-align: justify;\"><span style=\"font-size:12px\"><span style=\"font-family:Arial,Helvetica,sans-serif\">Imagine for a place where the sea and nature hold hands, this is the place of UNLIMITED turquiose Blue, Now imagine a hotel which takes you to the world of imigination with an amaze blend architechre and interior located with in vigin nature, Its is Anaya Lipe. Nestled on the white sandy powder Beach of Lipe Island, Andaman turquoise sea, Ananya Lipe lies along the coastal region of Thailand, Set against a dramatic backdrop of open blue sky, travelers can expect to discover a destination lauded for its natural beauty, with within easy accessibility from the resort. Anaya Lipe is only art inspired resort, this luxury comprises just 67 guest rooms and suites, all of which panoramic or ocean views. The resort&rsquo;s interior design is a juxtaposition of modern meets art-deco infused with new southern touches. This sophisticated design theme is also communicated in its dining venues. From international to Japanese to the freshest of seafood, five varied options present a myriad of flavors and interior design intended to delight your five senses. Resort&#39;s Dream maker planners will also be pleased with the array of choices available. Pool access barcony accord an air of elegance to naturally-lit indoor spaces, while Beach club and the great outdoors are the perfect setting for a fairytale wedding venue. Surrounded by panoramic views of the Andaman sea Thailand and white sands landscape, the resort offers a wide range of recreational activities. Or Just simply pool and sunloungin, reconnect with nature and rejuvenate body and mind.</span></span></div>\r\n', '<div>想像一下海洋和自然牽手的地方，這是無限的藍綠色的地方，現在想像一下一家酒店，它以奇特的混合建築和室內裝飾與原始自然一起帶您進入沉浸的世界，它是Anaya Lipe 。阿南亞&middot;利普（Ananya Lipe）坐落在安達曼綠松石海利普島（Lipe Island）的白色沙灘上，坐落在泰國沿海地區，在蔚藍的天空映襯下，旅客可以發現一個因其自然風光而備受讚譽的目的地。從度假村很容易到達。 Anaya Lipe是唯一一家受到藝術啟發的度假勝地，這種豪華只有67間客房和套房，全部可欣賞全景或海景。度假村的室內設計融合了現代感和裝飾藝術感，並融合了新的南方風情。這個精緻的設計主題也在其就餐場所傳達。從國際風味到日本風味，再到最新鮮的海鮮風味，共有五種選擇，可提供多種風味和室內設計，以使您的五種感官愉悅。 Resort的Dream maker計劃者也將對可用的選擇感到滿意。進入泳池的陽台為自然採光的室內空間營造出優雅的氛圍，而海灘俱樂部和戶外活動場所則是童話般的婚禮場地的理想之選。度假村周圍環繞著泰國安達曼海和白色沙灘的全景，提供各種休閒活動。或只是簡單地游泳池和日光躺椅，與大自然重新聯繫並恢復身心。</div>\r\n', 'sl'),
 (7, '<div><span style=\"font-family:Georgia,serif\"><span style=\"font-size:36px\"><strong>Discount on web bookings discounted 10%</strong></span></span></div>\r\n', '<div><span style=\"font-family:Georgia,serif\"><span style=\"font-size:36px\"><strong>Discount on web bookings discounted 10%</strong></span></span></div>\r\n', '', 'de'),
 (8, 'www.w3hatyai.com', 'www.w3hatyai.com', 'www.w3hatyai.com', 'web'),
 (9, 'info@w3hatyai.com', 'info@w3hatyai.com', '', 'mail'),
@@ -351,7 +331,7 @@ INSERT INTO `gallery360` (`ID_360`, `ID_room`, `link`, `status`) VALUES
 
 CREATE TABLE `img_room` (
   `ID_imgroom` int(11) NOT NULL,
-  `ID_room` int(1) UNSIGNED NOT NULL DEFAULT '0',
+  `ID_room` int(1) UNSIGNED NOT NULL DEFAULT 0,
   `link` varchar(200) CHARACTER SET utf8 COLLATE utf8_bin NOT NULL,
   `status` int(1) NOT NULL,
   `room_detail` varchar(100) NOT NULL
@@ -439,15 +419,16 @@ CREATE TABLE `line_account` (
   `token` text NOT NULL,
   `api_path` text NOT NULL,
   `status` int(11) NOT NULL
-) ENGINE=MyISAM DEFAULT CHARSET=utf8;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Dumping data for table `line_account`
 --
 
 INSERT INTO `line_account` (`id`, `name`, `token`, `api_path`, `status`) VALUES
-(1, 'Akira', '', '', 0),
-(2, 'Ananya', '', '', 0);
+(1, 'Akira', '5q90jF9hn6LYOjygEeTnZu9v2d1rnGHJ/YVdoSwZZNMCm2iTH40P0FPXUKXft7TmeUgWqaOmsJC9vsaUfqE5aZ7+qtFwy8CN0aZzpN1y7v2LXVcIl7yAruNwZAE9HhdTR9VKAtBOiqwDFlPW7eQ3HAdB04t89/1O/w1cDnyilFU=', 'https://imi55.com:3031/broadcast', 0),
+(2, 'Ananya', 'dmZSKhL0fDXonsxu8rmfFTPms8qMO/A/ggjWTNXIWPQAJ8mwgjLCzlwsX53nkLfslJoKoBajovWmQAa9Mk1KDoIiM6ysRCPSzrIgHd2q6dtAQ7FcnULCUUwlfAgV4MItuRF8VMqujeRmLYC4jTrtZwdB04t89/1O/w1cDnyilFU=', 'https://imi55.com:3031/broadcast', 0),
+(3, 'BroadCast_TEST', 'VPvLkLPLMb8iOPmQOX9bbWuA8NOdze3aWm9q1D0deVTeYrZZ44+jrJXpdUmc5Fy4VdHdBJGI7PGJUmL+dyVTxR91R9EYVh7IxXu+niL9zN+BBuHQUqfjtSig5eNAhxuCFyc6lA7GtZirVIS6Y2kJkwdB04t89/1O/w1cDnyilFU=', 'https://imi55.com:3033/broadcast', 1);
 
 -- --------------------------------------------------------
 
@@ -2816,13 +2797,12 @@ CREATE TABLE `room` (
 --
 
 INSERT INTO `room` (`ID_room`, `name_room_th`, `name_room_en`, `name_room_cn`, `detail_room_th`, `detail_room_en`, `detail_room_cn`, `price_room`, `total_room`, `image_room`) VALUES
-(4, 'ดีลักซ์ พลู วิว', 'Deluxe Pool View', '', '', '', '', 4450, 5, 'DSC_7411.jpg'),
-(6, 'รอยัล สูท พาโนรามิค วิว', 'Royal Suite Panoramic View', '', '', '', '', 8650, 0, 'DSC_7395.jpg'),
-(7, 'รอยัล สูท พูล วิว', 'Royal Suite Pool View', '', '', '', '', 9650, 0, '20190704_๑๙๐๗๒๔_0015.jpg'),
-(8, 'รอยัล สูท ซีวิว', 'Royal Suite SeaView', '', '', '', '', 11950, 0, '20190704_๑๙๐๗๒๔_0003.jpg'),
-(9, 'แฟมิลี่ สูท พูล แอคเซส', 'Family Suite Pool Access', '', '', '', '', 10950, 0, '20190704_๑๙๐๗๒๔_0003.jpg'),
-(10, 'แกรนด์ รอยัล สูท ซีวิว', 'Grand Royal Suite SeaView', '', '', '', '', 17950, 0, '20190704_๑๙๐๗๒๔_0003.jpg'),
-(11, 'ดีลักซ์ พลู แอคเซส', 'Deluxe Pool Access', '', '', '', '', 5550, 5, 'Deluxe Pool Access_191031_0002.jpg');
+(4, 'ดีลักซ์ พลู วิว', 'Deluxe Pool View', 'ดีลักซ์ พลู วิว', '', 'Deluxe Pool View', '', 4450, 5, '2020.9.25_200926_18.jpg'),
+(6, 'รอยัล สูท พาโนรามิค วิว', 'Royal Suite Panoramic View', 'รอยัล สูท พาโนรามิค วิว', '', 'Royal Suite Panoramic View', '', 8650, 0, '2020.9.25_200926_43.jpg'),
+(7, 'รอยัล สูท พูล วิว', 'Royal Suite Pool View', 'รอยัล สูท พูล วิว', '', 'Royal Suite Pool View', '', 9650, 0, '2020.9.25_200926_25.jpg'),
+(8, 'รอยัล สูท ซีวิว', 'Royal Suite SeaView', 'รอยัล สูท ซีวิว', '', 'Royal Suite SeaView', '', 11950, 0, '2020.9.25_200926_28.jpg'),
+(9, 'แฟมิลี่ สูท พูล แอคเซส', 'Family Suite Pool Access', 'แฟมิลี่ สูท พูล แอคเซส', '', 'Family Suite Pool Access', '', 10950, 0, '2020.9.25_200926_58.jpg'),
+(10, 'แกรนด์ รอยัล สูท ซีวิว', 'Grand Royal Suite SeaView', 'แกรนด์ รอยัล สูท ซีวิว', '', 'Grand Royal Suite SeaView', '', 17950, 0, 'bg_1.jpg');
 
 -- --------------------------------------------------------
 
@@ -2956,7 +2936,7 @@ ALTER TABLE `bg`
 -- AUTO_INCREMENT for table `booking`
 --
 ALTER TABLE `booking`
-  MODIFY `ID_booking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=201;
+  MODIFY `ID_booking` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=181;
 
 --
 -- AUTO_INCREMENT for table `facilties`
@@ -2986,7 +2966,7 @@ ALTER TABLE `img_room`
 -- AUTO_INCREMENT for table `line_account`
 --
 ALTER TABLE `line_account`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `package`
