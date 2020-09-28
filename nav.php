@@ -26,7 +26,7 @@
             $logo2 = mysqli_fetch_assoc( $logo1 );
           ?>
           <img src="">
-            <a class="navbar-brand" href="index.html">TSUSLOW<span>HOSTEL</span></a>
+            <a class="navbar-brand" href="index.php">TSUSLOW<span>HOSTEL</span></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
             <span class="fa fa-bars"></span> Menu
           </button>

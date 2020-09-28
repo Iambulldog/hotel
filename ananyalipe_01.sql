@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Sep 26, 2020 at 11:25 AM
+-- Generation Time: Sep 28, 2020 at 11:41 AM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.2
 
@@ -2797,11 +2797,11 @@ CREATE TABLE `room` (
 --
 
 INSERT INTO `room` (`ID_room`, `name_room_th`, `name_room_en`, `name_room_cn`, `detail_room_th`, `detail_room_en`, `detail_room_cn`, `price_room`, `total_room`, `image_room`) VALUES
-(4, 'ดีลักซ์ พลู วิว', 'Deluxe Pool View', 'ดีลักซ์ พลู วิว', '', 'Deluxe Pool View', '', 4450, 5, '2020.9.25_200926_18.jpg'),
-(6, 'รอยัล สูท พาโนรามิค วิว', 'Royal Suite Panoramic View', 'รอยัล สูท พาโนรามิค วิว', '', 'Royal Suite Panoramic View', '', 8650, 0, '2020.9.25_200926_43.jpg'),
+(4, 'ดีลักซ์ พลู วิว', 'Deluxe Pool View', 'ดีลักซ์ พลู วิว', '', '', '', 4450, 10, '2020.9.25_200926_14.jpg'),
+(6, 'รอยัล สูท พาโนรามิค วิว', 'Royal Suite Panoramic View', 'รอยัล สูท พาโนรามิค วิว', '', '', '', 8650, 0, '2020.9.25_200926_25.jpg'),
 (7, 'รอยัล สูท พูล วิว', 'Royal Suite Pool View', 'รอยัล สูท พูล วิว', '', 'Royal Suite Pool View', '', 9650, 0, '2020.9.25_200926_25.jpg'),
-(8, 'รอยัล สูท ซีวิว', 'Royal Suite SeaView', 'รอยัล สูท ซีวิว', '', 'Royal Suite SeaView', '', 11950, 0, '2020.9.25_200926_28.jpg'),
-(9, 'แฟมิลี่ สูท พูล แอคเซส', 'Family Suite Pool Access', 'แฟมิลี่ สูท พูล แอคเซส', '', 'Family Suite Pool Access', '', 10950, 0, '2020.9.25_200926_58.jpg'),
+(8, 'รอยัล สูท ซีวิว', 'Royal Suite SeaView', 'รอยัล สูท ซีวิว', '', '', '', 11950, 0, '2020.9.25_200926_40.jpg'),
+(9, 'แฟมิลี่ สูท พูล แอคเซส', 'Family Suite Pool Access', 'แฟมิลี่ สูท พูล แอคเซส', '', '', '', 10950, 0, 'bg_1.jpg'),
 (10, 'แกรนด์ รอยัล สูท ซีวิว', 'Grand Royal Suite SeaView', 'แกรนด์ รอยัล สูท ซีวิว', '', 'Grand Royal Suite SeaView', '', 17950, 0, 'bg_1.jpg');
 
 -- --------------------------------------------------------
