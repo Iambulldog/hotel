@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-	<?php include('header.php');
+	<?php require('header.php');
 	$page = 'index';
 	session_start(); 
 	if($_SESSION['Username'] == "")
@@ -10,9 +10,9 @@
 }?>
 
 	<body class="no-skin">
-	<?php include('navbar.php'); ?>	
+	<?php require('navbar.php'); ?>	
 
-	<?php include('menu.php'); ?>	
+	<?php require('menu.php'); ?>	
 
 			<div class="main-content">
 				<div class="main-content-inner">

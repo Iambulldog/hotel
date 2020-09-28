@@ -5,13 +5,13 @@ date_default_timezone_set("Asia/Bangkok");
 	error_reporting(~0);
 
 $serverName  = "localhost";
-$userName	  = "u913926455_01";
-$Password	  = "Aa123654";
-$dbName	  = "u913926455_01";
+// $userName	  = "u913926455_01";
+// $Password	  = "Aa123654";
+// $dbName	  = "u913926455_01";
 
-// $userName	  = "root";
-// $Password	  = "";
-// $dbName	  = "ananyalipe_01";
+$userName	  = "root";
+$Password	  = "";
+$dbName	  = "ananyalipe_01";
 
 	$con = mysqli_connect($serverName,$userName,$Password,$dbName);
 

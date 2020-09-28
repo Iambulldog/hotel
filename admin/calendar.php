@@ -13,8 +13,8 @@ if(empty($_SESSION['UserID']))
 
 try
 {
-	$bdd = new PDO('mysql:host=localhost;dbname=u913926455_01;charset=utf8', 'u913926455_01', 'Aa123654');
-	// $bdd = new PDO('mysql:host=localhost;dbname=ananyalipe_01;charset=utf8', 'ananyalipe_01', 'Aa123654');
+	// $bdd = new PDO('mysql:host=localhost;dbname=u913926455_01;charset=utf8', 'u913926455_01', 'Aa123654');
+	$bdd = new PDO('mysql:host=localhost;dbname=ananyalipe_01;charset=utf8', 'ananyalipe_01', 'Aa123654');
 }
 catch(Exception $e)
 {
